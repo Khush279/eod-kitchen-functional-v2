@@ -1,0 +1,40 @@
+{
+  "project_name": "eod-kitchen-functional",
+  "description": "Smart meal planning application with Google Cloud AI",
+  "tech_stack": {
+    "framework": "Next.js 14",
+    "styling": "Tailwind CSS",
+    "ai_services": [
+      "Google Vision AI",
+      "Google Gemini AI"
+    ],
+    "deployment": "Vercel"
+  },
+  "features": [
+    "Receipt OCR with Google Vision AI",
+    "AI Recipe Generation with Gemini",
+    "Smart Pantry Management",
+    "Meal Planning & Shopping Lists",
+    "Responsive Mobile Design",
+    "Real-time Expiry Tracking"
+  ],
+  "api_endpoints": [
+    "POST /api/ocr - Receipt processing",
+    "POST /api/generate-recipe - Recipe generation",
+    "POST /api/meals - Meal plan creation",
+    "CRUD /api/pantry - Pantry management"
+  ],
+  "environment_variables": {
+    "GOOGLE_VISION_API_KEY": "AIzaSyCp_DYvOcD8f7PcnRi9pzSas9UzVHH_6LY",
+    "GOOGLE_GEMINI_API_KEY": "AIzaSyCzu3MDmC4yoNwJnFfL7LEjMLUwgRq0q4w",
+    "NEXT_PUBLIC_APP_URL": "https://your-app.vercel.app"
+  },
+  "deployment_steps": [
+    "1. Push code to GitHub repository 'eod-kitchen-functional'",
+    "2. Connect repository to Vercel",
+    "3. Set environment variables in Vercel dashboard",
+    "4. Deploy automatically",
+    "5. Test all AI features"
+  ],
+  "status": "READY FOR DEPLOYMENT"
+}
